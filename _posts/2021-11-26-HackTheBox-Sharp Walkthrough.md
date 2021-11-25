@@ -1,6 +1,6 @@
 ---
 published: true
-title: Hackthebox Tracback walkthrough
+title: Hackthebox Sharp walkthrough
 date: 2021-11-26 00:23:00 +0200
 categories: [HTB]
 tags: HTB
