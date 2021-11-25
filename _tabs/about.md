@@ -7,8 +7,10 @@ published: true
 
 <p>
 I'm a Cyber Security Engineer skilled in many penetration testing fields [ Web, Network, Infrastructure, Active Directory ].
-  <hr>
+</p>
+<p>
 Security Researcher skilled in SAST and DAST interested in open source security researching.
-<hr>
+</p>
+<p>
 Competitor at HackTheBox [Top 10 in Egypt leaderboard for more than a year].
 </p>
