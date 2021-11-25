@@ -17,9 +17,9 @@ platforms:
 
   # Uncomment below if you need to.
   # -
-     type: Linkedin
-     icon: "fab fa-linkedin"
-     link: "https://www.linkedin.com/in/m19o/"
+  #  type: Linkedin
+  #  icon: "fab fa-linkedin"
+  #  link: "https://www.linkedin.com/in/m19o/"
   #
   # -
   #   type: Weibo
