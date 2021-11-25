@@ -1,6 +1,6 @@
 ---
 published: true
-title: Hackthebox Tracback walkthrough
+title: Hackthebox Sneakymailer walkthrough
 date: 2021-11-26 00:21:00 +0200
 categories: [HTB]
 tags: HTB
