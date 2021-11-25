@@ -1,6 +1,11 @@
 ---
 published: true
+title: Hackthebox Tracback walkthrough
+date: 2021-11-26 00:22:00 +0200
+categories: [HTB]
+tags: HTB
 ---
+
 <h1>Scanning</h1>
 
 <img src="https://i.ibb.co/dbW2t85/Screenshot-from-2021-02-13-17-25-59.png" alt="Screenshot-from-2021-02-13-17-25-59" border="0"> 
