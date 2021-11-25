@@ -1,5 +1,9 @@
 ---
 published: true
+title: Hackthebox Schooled walkthrough
+date: 2021-11-26 00:23:00 +0200
+categories: [HTB]
+tags: HTB
 ---
 
 
