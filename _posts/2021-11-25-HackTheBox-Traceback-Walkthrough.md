@@ -2,6 +2,10 @@
 published: false
 ---
 ---
+title: Hackthebox Tracback walkthrough
+date: 2021-11-25 16:29:00 +0200
+categories: [HTB]
+tags: HTB
 published: true
 ---
 <img src="https://i.ibb.co/Y833pYB/Trace-Back.jpg" alt="Trace-Back" border="0">
