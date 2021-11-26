@@ -31,12 +31,12 @@ tags: Publications SecurityResearching
 
 **```Let's EXPLOIT```**
 
-<iframe src="https://giphy.com/embed/CY3A9zOlZR8uhFbeok" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
+<iframe src="https://giphy.com/embed/CY3A9zOlZR8uhFbeok" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 <h1><strong>Exploitation</strong></h1>
 <img src="https://i.ibb.co/nCSZcPc/22.png" alt="22" border="0">
 
-**You can execute any file with php extension because .php is added to any value you provide**
+**```You can execute any file with php extension because .php is added to any value you provide```**
   
   
 
