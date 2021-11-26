@@ -24,7 +24,7 @@ tags: HTB
 <h1>SMB Enumeration</h1>
 
 <p>When you see SMB in Windows enviroment you should go for it !</p>
-<p>Let`s start enumerating</p>
+<p>Let's start enumerating</p>
 
 <h1>SMB Enumeration</h1>
 
