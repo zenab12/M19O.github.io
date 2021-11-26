@@ -27,9 +27,9 @@ tags: Publications SecurityResearching
   
   
 <img src="https://i.ibb.co/hXRcSQp/1123.png" alt="1123" border="0">
-**Let's EXPLOIT**
+**```Let's EXPLOIT```**
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fson-goku&psig=AOvVaw0wCcm6Hw5XeN4BUH1tRr11&ust=1638018106029000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiOhI2LtvQCFQAAAAAdAAAAABAJ" alt="Goku" border="0">
+<iframe src="https://giphy.com/embed/CY3A9zOlZR8uhFbeok" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/TOEIAnimationUK-goku-dragon-ball-super-ultra-instinct-CY3A9zOlZR8uhFbeok">via GIPHY</a></p>
 
 <h2>Exploitation</h2>
 <img src="https://i.ibb.co/nCSZcPc/22.png" alt="22" border="0">
