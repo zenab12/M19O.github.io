@@ -1,5 +1,9 @@
 ---
 published: true
+title: Hackthebox BreadCrumbs walkthrough
+date: 2021-11-26 03:32:00 +0200
+categories: [HTB]
+tags: HTB
 ---
 <img src="https://i.ibb.co/nCsMGX3/1.png" alt="1" border="0"> 
 
