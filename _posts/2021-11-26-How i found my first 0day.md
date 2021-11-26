@@ -1,7 +1,10 @@
 ---
-published: false
+published: true
+title: How i found my first 0day 
+date: 2021-11-26 14:56:00 +0200
+categories: [Publications]
+tags: Publications, SecurityResearching
 ---
-
 
 
 
@@ -18,18 +21,16 @@ published: false
 
 <h1>Statis analysis</h1>
   
-<p>At the beganinng i started to analyze the code to understand how the code works</p> 
+```<p>At the beganinng i started to analyze the code to understand how the code works</p>``` 
 <br>
-<p>while analyzing the dashboard.php file i saw that the developer using require_once at the end of the file, as you can see {$active_tab} gets his value from TAB and TAB value is provided by the user</p> 
+```<p>while analyzing the dashboard.php file i saw that the developer using require_once at the end of the file, as you can see {$active_tab} gets his value from TAB and TAB value is provided by the user</p>```
   
   
 <img src="https://i.ibb.co/hXRcSQp/1123.png" alt="1123" border="0">
-<br> 
   <p>After analyzing the code i started the exploitation phase</p>
   
 <img src="https://i.ibb.co/nCSZcPc/22.png" alt="22" border="0">
-  <br>
-  <p> You can execute any file with php extension because .php is added to any value you provide</p>
+  ```<p> You can execute any file with php extension because .php is added to any value you provide</p>```
   
   
 
