@@ -36,7 +36,7 @@ tags: Publications SecurityResearching
 <h1><strong>Exploitation</strong></h1>
 <img src="https://i.ibb.co/nCSZcPc/22.png" alt="22" border="0">
 
-```You can execute any file with php extension because .php is added to any value you provide```
+**You can execute any file with php extension because .php is added to any value you provide**
   
   
 
