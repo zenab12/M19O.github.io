@@ -28,6 +28,7 @@ tags: Publications SecurityResearching
   
 <img src="https://i.ibb.co/hXRcSQp/1123.png" alt="1123" border="0">
 <br>
+<br>
 **```Let's EXPLOIT```**
 
 <iframe src="https://giphy.com/embed/CY3A9zOlZR8uhFbeok" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
