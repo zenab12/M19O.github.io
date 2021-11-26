@@ -21,9 +21,9 @@ tags: Publications, SecurityResearching
 
 <h1>Statis analysis</h1>
   
-**```At the beganinng i started to analyze the code to understand how the code works``` 
-<br>
-```while analyzing the dashboard.php file i saw that the developer using require_once at the end of the file, as you can see {$active_tab} gets his value from TAB and TAB value is provided by the user```**
+```At the beganinng i started to analyze the code to understand how the code works``` 
+
+```while analyzing the dashboard.php file i saw that the developer using require_once at the end of the file, as you can see {$active_tab} gets his value from TAB and TAB value is provided by the user```
   
   
 <img src="https://i.ibb.co/hXRcSQp/1123.png" alt="1123" border="0">
