@@ -19,7 +19,7 @@ tags: Publications SecurityResearching
 **Poc** : https://example/wordpress/wp-admin/admin.php?page=all-in-one-video-gallery&tab=../../../../../poc
 <br>
 
-<h1><strong>Statis analysis</strong></h1>
+<h1><strong>Static analysis</strong></h1>
   
 ```At the beganinng i started to analyze the code to understand how the code works``` 
 
