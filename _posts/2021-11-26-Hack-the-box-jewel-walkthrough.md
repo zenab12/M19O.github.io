@@ -1,5 +1,9 @@
 ---
 published: true
+title: Hackthebox jewel walkthrough
+date: 2021-11-26 03:29:00 +0200
+categories: [HTB]
+tags: HTB
 ---
 <h1>Scanning</h1>
 
