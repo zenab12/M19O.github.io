@@ -35,7 +35,7 @@ tags: Publications SecurityResearching
 <iframe src="https://giphy.com/embed/CY3A9zOlZR8uhFbeok" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 <h1><strong>Exploitation</strong></h1>
-**```I wrote a php code to echo proof of concept and i saved it at wordpress root directory ```**
+**```I wrote a php code to echo "Proof Of Concept" and i saved it at wordpress root directory ```**
 
 <img src="https://i.ibb.co/hMtgfD5/poc1.png" alt="poc1" border="0">
 
