@@ -36,7 +36,6 @@ tags: Publications SecurityResearching
 
 <h1><strong>Exploitation</strong></h1>
 
-<h2>Poc file</h2>
 <img src="https://i.ibb.co/hMtgfD5/poc1.png" alt="poc1" border="0">
 
 
