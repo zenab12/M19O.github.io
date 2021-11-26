@@ -122,7 +122,7 @@ tags: HTB
 
 <h1>User</h1>
 
-<p>I searched for .NET remote service exploit and found :<a href="https://github.com/tyranid/ExploitRemotingService">ExploitRemotingService</a></p>
+<p>I searched for .NET remote service exploit and found : <a href="https://github.com/tyranid/ExploitRemotingService">ExploitRemotingService</a></p>
 
 <h1>Creating the reverse shell on Windows</h1>
 
