@@ -1,5 +1,9 @@
 ---
 published: true
+title: Hackthebox Sneakymailer walkthrough
+date: 2021-11-26 03:31:00 +0200
+categories: [HTB]
+tags: HTB
 ---
 <img src="https://i.ibb.co/2tgV0yX/sneakymailer.png" alt="sneakymailer" border="0">
 
