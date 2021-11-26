@@ -1,5 +1,9 @@
 ---
 published: true
+title: Hackthebox Sharp walkthrough
+date: 2021-11-26 03:36:00 +0200
+categories: [HTB]
+tags: HTB
 ---
 <img src="https://i.ibb.co/47wNjmZ/Eo-Ud-Yp-BWMAwn3-Z2.jpg" alt="Eo-Ud-Yp-BWMAwn3-Z2" border="0">
 
