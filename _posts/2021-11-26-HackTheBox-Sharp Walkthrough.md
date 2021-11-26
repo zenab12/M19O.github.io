@@ -1,5 +1,4 @@
----
-published: true
+--- published: true
 title: Hackthebox Sharp walkthrough
 date: 2021-11-26 03:50:00 +0200
 categories: [HTB]
