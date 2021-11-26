@@ -31,9 +31,15 @@ tags: Publications SecurityResearching
 
 **```Let's EXPLOIT```**
 
+
 <iframe src="https://giphy.com/embed/CY3A9zOlZR8uhFbeok" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 <h1><strong>Exploitation</strong></h1>
+
+<h2>Poc file</h2>
+<img src="https://i.ibb.co/hMtgfD5/poc1.png" alt="poc1" border="0">
+
+
 <img src="https://i.ibb.co/nCSZcPc/22.png" alt="22" border="0">
 
 **```You can execute any file with php extension because .php is added to any value you provide```**
