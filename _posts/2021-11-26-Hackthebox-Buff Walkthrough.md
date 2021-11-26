@@ -1,6 +1,11 @@
 ---
-published: true
+published: True
+title: Hackthebox Buff walkthrough
+date: 2021-11-26 03:27:00 +0200
+categories: [HTB]
+tags: HTB
 ---
+
 <img src="https://i.ibb.co/WtCrJ77/buff.png" alt="buff" border="0">
 
 <h1>Enumeration</h1>
