@@ -27,8 +27,11 @@ tags: Publications, SecurityResearching
   
   
 <img src="https://i.ibb.co/hXRcSQp/1123.png" alt="1123" border="0">
-**After analyzing the code i started the exploitation phase**
-  
+**Let's EXPLOIT**
+
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fson-goku&psig=AOvVaw0wCcm6Hw5XeN4BUH1tRr11&ust=1638018106029000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiOhI2LtvQCFQAAAAAdAAAAABAJ" alt="Goku" border="0">
+
+<h2>Exploitation</h2>
 <img src="https://i.ibb.co/nCSZcPc/22.png" alt="22" border="0">
 **```You can execute any file with php extension because .php is added to any value you provide```**
   
