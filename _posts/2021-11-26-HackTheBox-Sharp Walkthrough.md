@@ -5,6 +5,7 @@ date: 2021-11-26 03:50:00 +0200
 categories: [HTB]
 tags: HTB
 ---
+
 <img src="https://i.ibb.co/47wNjmZ/Eo-Ud-Yp-BWMAwn3-Z2.jpg" alt="Eo-Ud-Yp-BWMAwn3-Z2" border="0">
 
 <h1>Methodology</h1>
@@ -121,7 +122,7 @@ tags: HTB
 
 <h1>User</h1>
 
-<p>I searched for .NET remote service exploit and found :<a href="url">https://github.com/tyranid/ExploitRemotingService</a></p>
+<p>I searched for .NET remote service exploit and found :<a href="https://github.com/tyranid/ExploitRemotingService">ExploitRemotingService</a></p>
 
 <h1>Creating the reverse shell on Windows</h1>
 
