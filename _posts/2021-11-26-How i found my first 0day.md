@@ -19,7 +19,7 @@ tags: Publications SecurityResearching
 **Poc** : https://example/wordpress/wp-admin/admin.php?page=all-in-one-video-gallery&tab=../../../../../poc
 <br>
 
-<h1>Statis analysis</h1>
+<h1><strong>Statis analysis</strong></h1>
   
 ```At the beganinng i started to analyze the code to understand how the code works``` 
 
@@ -27,11 +27,12 @@ tags: Publications SecurityResearching
   
   
 <img src="https://i.ibb.co/hXRcSQp/1123.png" alt="1123" border="0">
+<br>
 **```Let's EXPLOIT```**
 
-<iframe src="https://giphy.com/embed/CY3A9zOlZR8uhFbeok" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/TOEIAnimationUK-goku-dragon-ball-super-ultra-instinct-CY3A9zOlZR8uhFbeok">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/CY3A9zOlZR8uhFbeok" width="480" height="278" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
 
-<h2>Exploitation</h2>
+<h1><strong>Exploitation</strong></h1>
 <img src="https://i.ibb.co/nCSZcPc/22.png" alt="22" border="0">
 **```You can execute any file with php extension because .php is added to any value you provide```**
   
