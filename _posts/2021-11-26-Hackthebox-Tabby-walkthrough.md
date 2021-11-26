@@ -1,5 +1,9 @@
 ---
 published: true
+title: Hackthebox Tabby walkthrough
+date: 2021-11-26 04:07:00 +0200
+categories: [HTB]
+tags: HTB
 ---
 <img src="https://i.ibb.co/8X9PmsQ/124295832-3653953797976480-4510901479630080213-o.jpg" alt="124295832-3653953797976480-4510901479630080213-o" border="0">
 
