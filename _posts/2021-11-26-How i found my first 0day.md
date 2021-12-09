@@ -1,5 +1,5 @@
 ---
-published: false
+published: True
 title: How i found my first 0day 
 date: 2021-11-26 14:56:00 +0200
 categories: [Publications]
@@ -47,17 +47,11 @@ tags: Publications SecurityResearching
   
 <h1>Test case</h1>
 
-**```There is a lot of web servers running in the wild with PHP 5 and allow_url_include ='true' is true by default also there is a lot of web servers misconfiguration - that gives the attacker advantage to get RCE.```**
-
-<p>So i edited allow_url_include to ON since i'm using PHP 8</p> 
-
-<img src="https://i.ibb.co/VvKMZrD/editing-allow-include-url.png" alt="editing-allow-include-url" border="0">
-
-<p> Now i will use the LFI to get reverse Shell</p>
+```**Now i will use the LFI to get reverse Shell**```
 
 <img src="https://i.ibb.co/mcjJdBX/shell.png" alt="shell" border="0">
 
-<p> Here we go, I received the connection using Netcat as a listener</p>
+**```Here we go, I received the connection using Netcat as a listener**```
   
 <img src="https://i.ibb.co/wy2H2Fs/REVERSE-SHELL.png" alt="REVERSE-SHELL" border="0">
 
