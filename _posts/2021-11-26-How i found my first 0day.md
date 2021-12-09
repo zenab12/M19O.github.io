@@ -47,7 +47,7 @@ tags: Publications SecurityResearching
   
 <h1>Test case</h1>
 
-```**Now i will use the LFI to get reverse Shell**```
+**```Now i will use the LFI to get reverse Shell```**
 
 <img src="https://i.ibb.co/mcjJdBX/shell.png" alt="shell" border="0">
 
