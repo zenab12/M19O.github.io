@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: How i found my first 0day 
 date: 2021-11-26 14:56:00 +0200
 categories: [Publications]
@@ -46,6 +46,7 @@ tags: Publications SecurityResearching
   
   
 <h1>Test case</h1>
+
 **```There is a lot of web servers running in the wild with PHP 5 and allow_url_include ='true' is true by default also there is a lot of web servers misconfiguration - that gives the attacker advantage to get RCE.```**
 
 <p>So i edited allow_url_include to ON since i'm using PHP 8</p> 
