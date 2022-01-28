@@ -1,8 +1,9 @@
 ---
-published: false
----
----
 published: true
+title: Hackthebox jewel walkthrough
+date: 2021-11-26 03:29:00 +0200
+categories: [HTB]
+tags: HTB
 ---
 
 <img src="https://i.ibb.co/9G93v2k/2022-01-22-19-55-34.png" alt="2022-01-22-19-55-34" border="0">
