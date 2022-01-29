@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Hackthebox Anubis walkthrough
 date: '2021-11-26 03:29:00 +0200'
 categories:
