@@ -8,6 +8,13 @@ tags: HTB
 ---
 <img src="https://i.ibb.co/9G93v2k/2022-01-22-19-55-34.png" alt="2022-01-22-19-55-34" border="0">
 
+# Summary 
+- RCE in the Web application
+- Pivoting 
+- Network analysis
+- Custom Exploitation 
+- Domain Admin Abusing Certifcate service 
+
 # Nmap 
 ```
 nmap -p- -sV -sC -v -oA enum --min-rate 4500 --max-rtt-timeout 1500ms --open
