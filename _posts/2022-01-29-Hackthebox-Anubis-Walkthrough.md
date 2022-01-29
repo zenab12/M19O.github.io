@@ -9,6 +9,13 @@ tags: HTB
 
 <img src="https://i.ibb.co/9G93v2k/2022-01-22-19-55-34.png" alt="2022-01-22-19-55-34" border="0">
 
+# Summary 
+- RCE in the Web application
+- Pivoting 
+- Network analysis
+- Custom Exploitation 
+- Domain Admin Abusing Certifcate service 
+
 # Nmap 
 ```
 nmap -p- -sV -sC -v -oA enum --min-rate 4500 --max-rtt-timeout 1500ms --open
@@ -292,7 +299,7 @@ PS C:\windows\system32\inetsrv> curl "http://softwareportal.windcorp.htb/install
 
 ```
 
-<img src="https://pin.it/6BqSY7X" alt=BAM border="0">
+<img src="https://i.ibb.co/zNy2Gvd/Tv-Addicted.gif" alt="Tv-Addicted" border="0">
 
 Lets crack it. 
 
