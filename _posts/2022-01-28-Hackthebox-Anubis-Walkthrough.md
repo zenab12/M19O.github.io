@@ -1,8 +1,9 @@
 ---
 published: true
 title: Hackthebox lol walkthrough
-date: 2021-11-26 03:29:00 +0200
-categories: [HTB]
+date: '2021-11-26 03:29:00 +0200'
+categories:
+  - HTB
 tags: HTB
 ---
 
@@ -76,7 +77,7 @@ listening on tun0, link-type RAW (Raw IP), snapshot length 262144 bytes
  
  **PINGO !**
 
-<img src="https://pin.it/3fkLqIK" alt="PINGO" border="0">
+<img src="https://i.ibb.co/C18BPdP/Koksal-Baba-GIF-Koksal-Baba-Koksalbaba-Discover-Share-GIFs.gif" alt="Koksal-Baba-GIF-Koksal-Baba-Koksalbaba-Discover-Share-GIFs" border="0">
  
  The code worked and i received the ICMP requests. 
  
