@@ -546,6 +546,7 @@ Lets get our TGT.
 <img src="https://i.ibb.co/93NkGjF/Pasted-image-20220128194724.png" alt="Pasted-image-20220128194724" border="0">
 
 Export it to KRB : 
+
 <img src="https://i.ibb.co/ZTp7Dfj/Pasted-image-20220128194757.png" alt="Pasted-image-20220128194757" border="0">
 
 <img src="https://i.ibb.co/ZTp7Dfj/Pasted-image-20220128194757.png" alt="Pasted-image-20220128194757" border="0">
