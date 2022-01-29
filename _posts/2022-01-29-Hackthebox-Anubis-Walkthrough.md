@@ -103,7 +103,7 @@ listening on tun0, link-type RAW (Raw IP), snapshot length 262144 bytes
 13:04:05.403998 IP 10.10.17.76 > www.windcorp.htb: ICMP echo reply, id 1000, seq 2768, length 40 
  ```
  
- ## Foothold 
+ # Foothold 
  
  Lets get a reverse shell ! 
  
@@ -161,7 +161,7 @@ d-r---         4/9/2021  10:36 PM                Public
 
  <img src="https://c.tenor.com/m6l7wY1JeDMAAAAd/koksal-sad.gif" alt="sad" border="0">
  
- ## Enumeration
+ # Enumeration
  
  Lets see what the Administrator have on desktop. 
  
@@ -276,7 +276,7 @@ That didn't work for me from the 1st time, don't give up on it, keep trying.
 
 From that logs i understood that the web application trying to authenticate from WinRM to get the file.
 
-## Escaping the docker
+# Escaping the docker
 
 I will start the respinder to catch the hash of the user that trying to authenticate against WinRM.
 
