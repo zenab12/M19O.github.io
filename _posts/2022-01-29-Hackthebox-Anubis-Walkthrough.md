@@ -14,7 +14,7 @@ tags: HTB
 - Pivoting 
 - Network analysis
 - Custom Exploitation 
-- Domain Admin Abusing Certifcate service 
+- Domain Admin by Abusing Certifcate service 
 
 # Nmap 
 ```
