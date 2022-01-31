@@ -16,7 +16,7 @@ tags: HTB
 - Custom Exploitation 
 - Domain Admin by Abusing Certifcate service 
 
-###### Scanning  
+### Scanning  
 ```
 nmap -p- -sV -sC -v -oA enum --min-rate 4500 --max-rtt-timeout 1500ms --open
 10.10.11.102
@@ -103,7 +103,7 @@ listening on tun0, link-type RAW (Raw IP), snapshot length 262144 bytes
 13:04:05.403998 IP 10.10.17.76 > www.windcorp.htb: ICMP echo reply, id 1000, seq 2768, length 40 
  ```
  
- ### Foothold
+ ###### Foothold
  
  Lets get a reverse shell ! 
  
